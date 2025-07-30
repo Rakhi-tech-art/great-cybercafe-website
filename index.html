@@ -19,6 +19,19 @@
   overflow: hidden;
 }
 
+.carousel-item img {
+  width: 100%;
+  object-fit: cover;
+  height: 100vh; /* Full screen height for desktop */
+}
+
+/* Fix for mobile devices */
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 250px; /* Adjust this height for mobile */
+    object-fit: cover;
+  }
+}
 .footer-section h5 {
   color: #FFD700; /* Yellow */
   margin-bottom: 15px;
