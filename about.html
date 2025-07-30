@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - Great Cyber Café</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="images/icon.png">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      scroll-behavior: smooth;
+    }
+
+    .navbar {
+      background-color: #ff6f00;
+    }
+    .navbar-brand, .nav-link {
+      color: white !important;
+      font-weight: bold;
+    }
+    .nav-link:hover {
+      color: #000 !important;
+    }
+
+    .hero-about {
+      background: linear-gradient(to right, #fff3e0, #ffe0b2);
+      color: #ff6f00;
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    .section-title {
+      color: #ff6f00;
+      font-weight: 700;
+      margin-bottom: 30px;
+      font-size: 2.2rem;
+    }
+
+    .about-content {
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+    .footer-section {
+  background-color: #000;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-section h5 {
+  color: #FFD700; /* Yellow */
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer-section a {
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #FFD700;
+}
+
+.animate-footer {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+    .certificate-card {
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      border: 2px solid #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      background-color: #fff;
+    }
+
+    .certificate-card:hover img {
+      transform: scale(1.1);
+    }
+
+    .why-box {
+      background-color: #fff3e0;
+      border-left: 5px solid #ff6f00;
+      padding: 20px;
+      border-radius: 10px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .why-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+
+    .why-box i {
+      color: #ff6f00;
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeInUp 0.8s ease forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    footer {
+      background-color: #000;
+      color: #bbb;
+      padding: 30px 0;
+    }
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="images/logo-removebg-preview.png" alt="Logo" style="height: 40px; margin-right: 10px;">
+      Great Cyber Café
+    </a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br>
+
+<!-- Hero Section -->
+<section class="hero-about" data-aos="fade-down">
+  <div class="container">
+    <h1 class="display-5 fw-bold">About Great Cyber Café</h1>
+    <p class="lead"><b>Fast. Friendly. Reliable Digital Services Since 2024</b></p>
+  </div>
+</section>
+
+<!-- About Content -->
+<section class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4" data-aos="fade-right">
+        <img src="images/frout.jpeg" class="img-fluid rounded shadow" alt="Great Cyber Cafe">
+      </div>
+      <div class="col-md-6" data-aos="fade-left">
+        <h2 class="section-title  ">Our Story</h2>
+        <p class="about-content">Established in 2024 by <strong>Pooja Arvind Jaiswal</strong>, Great Cyber Café was born with a simple vision: to offer fast, reliable, and honest digital services in the heart of Diva East, Thane. We are now a trusted name in the community for Aadhar, PAN, passport, online forms, printing, and computer education.</p>
+        <p class="about-content">We believe that access to digital services should be affordable and available to everyone — students, job seekers, local families, and business owners.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Founder & Owner Section -->
+<section class="py-5 bg-light text-dark">
+  <div class="container">
+    <h2 class="section-title text-center mb-5" data-aos="zoom-in">Founder & Owner</h2>
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center mb-4 mb-md-0" data-aos="fade-up">
+        <img src="images/pooja.jpeg" alt="Founder Image" class="img-fluid rounded-circle shadow" style="max-width: 250px;">
+      </div>
+      <div class="col-md-8" data-aos="fade-left">
+        <h3 class="mb-2">Pooja Arvind Jaiswal</h3>
+        <h5 class="text-muted mb-3">Founder & Owner, Great Cyber Café</h5>
+        <p>Pooja Arvind Jaiswal, a BAF graduate, started Great Cyber Café in 2024 with a dream to help people with all kinds of digital services — right here in Diva East. Her goal was simple: to make internet and computer services easy, quick, and affordable for everyone in the community.</p>
+        <p>As a young and passionate businesswoman, Pooja focuses on friendly service, clear support, and reliable work. Whether you need to browse the internet, fill out government forms, or print important documents, she and her team are always ready to help with a smile. At Great Cyber Café, every customer is treated with care and respect.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Certificates Section -->
+<section class="py-5" style="background-color: #fff3e0;">
+  <div class="container">
+    <h3 class="text-center section-title mb-5" data-aos="zoom-in">Our Certificates</h3>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4 col-sm-6" data-aos="zoom-in-up">
+        <div class="card certificate-card">
+          <img src="images/udyam.jpg" class="card-img-top" alt="Udyam Certificate" style="height: 200px; object-fit: contain;">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6" data-aos="zoom-in-up" data-aos-delay="100">
+        <div class="card certificate-card">
+          <img src="images/certifi_1 (2).jpeg" class="card-img-top" alt="Cyber Security Certificate" style="height: 200px; object-fit: contain;">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6" data-aos="zoom-in-up" data-aos-delay="200">
+        <div class="card certificate-card">
+          <img src="images/gomasta.jpg" class="card-img-top" alt="Gomasta Certificate" style="height: 200px; object-fit: contain;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+<footer class="bg-black text-white pt-5 pb-3">
+  <div class="container" >
+    <div class="row" style="text-align: center;">
+      
+      <!-- Logo & Café Info -->
+      <div class="col-md-4 mb-4" data-aos="fade-up">
+        <img src="images/logo-removebg-preview.png" alt="Great Cyber Café Logo" style="height: 60px;">
+        <h5 class="mt-3" style="color: #ff6b00";>Great Cyber Café</h5>
+        <p>SHOP NO 12, PANCH GANGA APARTMENT<br>
+        MUMBRADEVI COLONY, NEAR TRANSFORMER ROAD,<br>
+        DIVA EAST, THANE – 400612</p>
+      </div>
+
+      <!-- Navigation Links -->
+      <div class="col-md-2 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <h5 style="color: #ff6b00";>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-white">Home</a></li>
+          <li><a href="about.html" class="text-white">About</a></li>
+          <li><a href="services.html" class="text-white">Services</a></li>
+          <li><a href="contact.html" class="text-white">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="200">
+        <h5 style="color: #ff6b00";>Contact Us</h5>
+        <p><i class="fas fa-phone-alt"></i> 9004398030</p>
+        <p><i class="fas fa-envelope"></i> greatcybercafe852@gmail.com</p>
+        <p><i class="fab fa-whatsapp"></i> WhatsApp Available</p>
+      </div>
+
+      <!-- Opening Hours -->
+      <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+        <h5 style="color: #ff6b00";>Opening Hours</h5>
+        <p>Mon – Sat: 10:00 AM – 10:00 PM</p>
+        <p>Sunday: 12:00 AM – 10:00 PM</p>
+        <div class="mt-3">
+          <a href="#" class="text-white me-2"><i class="fab fa-facebook fa-lg"></i></a>
+          <a href="#" class="text-white me-2"><i class="fab fa-instagram fa-lg"></i></a>
+          <a href="https://wa.me/919004398030" class="text-white" target="_blank"><i class="fab fa-whatsapp fa-lg"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr style="border-color: rgba(255,255,255,0.1);">
+    
+    <div class="text-center" data-aos="fade-in" data-aos-delay="400">
+      <small>© 2024 <span class="text-warning">Great Cyber Café</span>. All rights reserved.</small>
+    </div>
+  </div>
+</footer>
+
+
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/919004398030" 
+   class="whatsapp-float" 
+   target="_blank" 
+   title="Chat with us on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- WhatsApp Floating Button CSS -->
+<style>
+  .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    font-size: 28px;
+    padding: 15px;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: background 0.3s;
+  }
+
+  .whatsapp-float:hover {
+    background-color: #1ebe5d;
+    text-decoration: none;
+    color: #ff6b00;
+  }
+</style>
+</body>
+</html>
